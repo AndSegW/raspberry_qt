@@ -1,0 +1,6 @@
+module Prova
+typeinfo appProva.qmltypes
+prefer :/qt/qml/Prova/
+Main 254.0 Main.qml
+depends QtQuick
+

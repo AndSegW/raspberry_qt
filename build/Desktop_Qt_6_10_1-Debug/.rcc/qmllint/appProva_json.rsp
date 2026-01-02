@@ -1,0 +1,12 @@
+--bare
+-I
+/home/andrea/QTProjects/Prova/build/Desktop_Qt_6_10_1-Debug
+-I
+/home/andrea/Qt/6.10.1/gcc_64/qml
+--resource
+/home/andrea/QTProjects/Prova/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/qmake_Prova.qrc
+--resource
+/home/andrea/QTProjects/Prova/build/Desktop_Qt_6_10_1-Debug/.qt/rcc/appProva_raw_qml_0.qrc
+/home/andrea/QTProjects/Prova/Main.qml
+--json
+/home/andrea/QTProjects/Prova/build/Desktop_Qt_6_10_1-Debug/appProva_qmllint.json

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Prova">
+    <file alias="qmldir">/home/andrea/QTProjects/Prova/build/Desktop_Qt_6_10_1-Debug/Prova/qmldir</file>
+  </qresource>
+</RCC>
+
