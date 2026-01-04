@@ -3,10 +3,10 @@
 
 int main(int argc, char *argv[])
 {
-    // Forza Qt a usare il plugin EGLFS (embedded, senza X11)
-    qputenv("QT_QPA_PLATFORM", QByteArray("eglfs"));
+    // Forza Qt a usare Wayland
+    qputenv("QT_QPA_PLATFORM", QByteArray("wayland"));
 
-    // Forza UTF-8
+    // UTF-8
     qputenv("LC_ALL", QByteArray("en_US.UTF-8"));
     qputenv("LANG", QByteArray("en_US.UTF-8"));
 
